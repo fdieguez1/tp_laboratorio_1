@@ -32,8 +32,8 @@ int main(void) {
 	int flagPrimerOp = 0;
 	int flagSegundoOp = 0;
 	int flagCalculos = 0;
-	int primerOperando = 0;//Inicializado para evitar warning de "may be used uninitialized"
-	int segundoOperando = 0;//Inicializado para evitar warning de "may be used uninitialized"
+	int primerOperando = 0; //Inicializado para evitar warning de "may be used uninitialized"
+	int segundoOperando = 0; //Inicializado para evitar warning de "may be used uninitialized"
 	int resultadoSuma;
 	int resultadoResta;
 	float resultadoDivision;
@@ -50,18 +50,21 @@ int main(void) {
 		mostrarMenu(primerOperando, segundoOperando, flagPrimerOp,
 				flagSegundoOp);
 		int opcion = tomarRespuesta();
-		if (retornoEjecucion == 0) {
-			retornoEjecucion = ejecutarOpcion(opcion, &primerOperando, &segundoOperando,
-					&flagPrimerOp, &flagSegundoOp, &flagCalculos,
-					&resultadoSuma, &resultadoResta, &resultadoDivision,
-					&resultadoMultiplicacion, &resultadoFactA, &resultadoFactB,
-					&flagDivido, &flagFactA, &flagFactB);
-			if (retornoEjecucion == -1) {
+		if (opcion != -1) {
+			if (retornoEjecucion == 0) {
+				retornoEjecucion = ejecutarOpcion(opcion, &primerOperando,
+						&segundoOperando, &flagPrimerOp, &flagSegundoOp,
+						&flagCalculos, &resultadoSuma, &resultadoResta,
+						&resultadoDivision, &resultadoMultiplicacion,
+						&resultadoFactA, &resultadoFactB, &flagDivido,
+						&flagFactA, &flagFactB);
+			} else {
 				printf("\nNo se pudo procesar la opcion, intente nuevamente\n");
 			}
 			system("pause");
 		} else {
-			printf("Error, ingrese un rango valido para las opciones, del 1 al 5\n");
+			printf(
+					"Error, ingrese un rango valido para las opciones, del 1 al 5\n");
 		}
 	}
 	printf("Programa finalizado\n");

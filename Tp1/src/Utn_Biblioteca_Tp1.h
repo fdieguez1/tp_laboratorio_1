@@ -1,12 +1,12 @@
 #ifndef UTN_BIBLIOTECA_H
 #define UTN_BIBLIOTECA_H
 
-/** \brief muestra un menu con opciones
+/** \brief muestra un menu con opciones, si estan cargados operando los reemplaza en las opciones
  *
- * \param int* primerOperando valor del primerOperando
- * \param int* segundoOperando valor del segundoOperando
- * \param int* flagA valor de la bandera del primerOperando
- * \param int* flagB valor de la bandera del segundoOperando
+ * \param int primerOperando valor del primerOperando
+ * \param int segundoOperando valor del segundoOperando
+ * \param int flagA valor de la bandera del primerOperando
+ * \param int flagB valor de la bandera del segundoOperando
  *
  */
 void mostrarMenu(int primerOperando, int segundoOperando, int flagA, int flagB);
