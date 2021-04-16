@@ -60,10 +60,11 @@ int multiplicar(int numeroA, int numeroB) {
 long long int calcularFactorial(int numero) {
 	int respuesta;
 	if (numero == 1) {
-		return 1;
+		respuesta = 1;
+	} else {
+		respuesta = numero * calcularFactorial(numero - 1);
 	}
-	respuesta = numero * calcularFactorial(numero - 1);
-	return (respuesta);
+	return respuesta;
 }
 
 int resetBanderasCalculos(int *flagDividio, int *flagFactorizoA,
@@ -155,7 +156,8 @@ int ejecutarOpcion(int opcion, int *primerOperando, int *segundoOperando,
 		long long int *resultadoFactB, int *flagDividio, int *flagFactorizoA,
 		int *flagFactorizoB) {
 	int retorno = -1;
-	if (opcion > 0 && opcion < 6 && primerOperando != NULL && segundoOperando != NULL
+	if (opcion
+			> 0&& opcion < 6 && primerOperando != NULL && segundoOperando != NULL
 			&& flagPrimerOp != NULL && flagSegundoOp != NULL && flagCalculos != NULL && resultadoSuma != NULL && resultadoResta != NULL
 			&& resultadoDivision != NULL && resultadoMultiplicacion != NULL
 			&& resultadoFactA != NULL && resultadoFactB != NULL) {
@@ -169,7 +171,8 @@ int ejecutarOpcion(int opcion, int *primerOperando, int *segundoOperando,
 				*primerOperando = primerIngreso;
 				retorno = 0;
 				*flagPrimerOp = 1;
-				resetBanderasCalculos(flagDividio, flagFactorizoA, flagFactorizoB, flagCalculos);
+				resetBanderasCalculos(flagDividio, flagFactorizoA,
+						flagFactorizoB, flagCalculos);
 			} else {
 				printf("Error al cargar el primer operando\n");
 			}
@@ -183,7 +186,8 @@ int ejecutarOpcion(int opcion, int *primerOperando, int *segundoOperando,
 				*segundoOperando = segundoIngreso;
 				retorno = 0;
 				*flagSegundoOp = 1;
-				resetBanderasCalculos(flagDividio, flagFactorizoA, flagFactorizoB, flagCalculos);
+				resetBanderasCalculos(flagDividio, flagFactorizoA,
+						flagFactorizoB, flagCalculos);
 			} else {
 				printf("Error al cargar el segundo operando\n");
 			}
