@@ -45,11 +45,12 @@ int main(void) {
 	int flagFactA;
 	int flagFactB;
 	int retornoEjecucion = 0;
+	int opcion;
 
 	while (retornoEjecucion <= 0) {
 		mostrarMenu(primerOperando, segundoOperando, flagPrimerOp,
 				flagSegundoOp);
-		int opcion = tomarRespuesta();
+		opcion = tomarRespuesta();
 		if (opcion != -1) {
 			if (retornoEjecucion == 0) {
 				retornoEjecucion = ejecutarOpcion(opcion, &primerOperando,
