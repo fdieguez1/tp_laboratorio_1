@@ -1,0 +1,180 @@
+# depslib dependency file v1.0
+1624234487 source:c:\users\jenni\escritorio\tp3\controller.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"Employee.h"
+	"utn_biblioteca.h"
+	"parser.h"
+	"Controller.h"
+
+1623862904 c:\users\jenni\escritorio\tp3\linkedlist.h
+
+1624227854 c:\users\jenni\escritorio\tp3\employee.h
+
+1624234214 source:c:\users\jenni\escritorio\tp3\employee.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Employee.h"
+
+1624230150 source:c:\users\jenni\escritorio\tp3\main.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Controller.h"
+	"Employee.h"
+	"utn_biblioteca.h"
+
+1624230133 c:\users\jenni\escritorio\tp3\controller.h
+	"Employee.h"
+
+1624126200 source:c:\users\jenni\escritorio\tp3\parser.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"Employee.h"
+	"Controller.h"
+
+1624233927 source:c:\users\jenni\escritorio\tp3\utn_biblioteca.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdlib.h>
+	"utn_biblioteca.h"
+
+1623973615 c:\users\jenni\escritorio\tp3\utn_biblioteca.h
+
+1624042905 c:\users\jenni\escritorio\tp3\parser.h
+
+1624299555 source:c:\users\ferna\source\repos\repojenni\tp_laboratorio_1\tp3\controller.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Controller.h"
+	"Employee.h"
+	"ui.h"
+	"inputs.h"
+	"parser.h"
+
+1624282071 c:\users\ferna\source\repos\repojenni\tp_laboratorio_1\tp3\linkedlist.h
+
+1624299859 c:\users\ferna\source\repos\repojenni\tp_laboratorio_1\tp3\employee.h
+
+1624279093 c:\users\ferna\source\repos\repojenni\tp_laboratorio_1\tp3\utn_biblioteca.h
+
+1624282071 c:\users\ferna\source\repos\repojenni\tp_laboratorio_1\tp3\parser.h
+
+1624295553 c:\users\ferna\source\repos\repojenni\tp_laboratorio_1\tp3\controller.h
+	"Employee.h"
+
+1624299623 source:c:\users\ferna\source\repos\repojenni\tp_laboratorio_1\tp3\employee.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Employee.h"
+
+1624297194 source:c:\users\ferna\source\repos\repojenni\tp_laboratorio_1\tp3\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ui.h"
+	"LinkedList.h"
+	"Controller.h"
+	"Employee.h"
+	"inputs.h"
+
+1624298983 source:c:\users\ferna\source\repos\repojenni\tp_laboratorio_1\tp3\parser.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"Employee.h"
+	"Controller.h"
+
+1624279093 source:c:\users\ferna\source\repos\repojenni\tp_laboratorio_1\tp3\utn_biblioteca.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdlib.h>
+	"utn_biblioteca.h"
+
+1624299569 source:c:\users\ferna\source\repos\repojenni\tp_laboratorio_1\tp3\ui.c
+	<stdio.h>
+	<stdlib.h>
+	"ui.h"
+	"inputs.h"
+
+1624285297 c:\users\ferna\source\repos\repojenni\tp_laboratorio_1\tp3\ui.h
+
+1624294786 c:\users\ferna\source\repos\repojenni\tp_laboratorio_1\tp3\inputs.h
+
+1624286539 source:c:\users\ferna\source\repos\repojenni\tp_laboratorio_1\tp3\inputs.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"inputs.h"
+	"ui.h"
+
+1624299555 source:c:\users\ferna\source\repos\repofer\tp_laboratorio_1\tp3\controller.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Controller.h"
+	"Employee.h"
+	"ui.h"
+	"inputs.h"
+	"parser.h"
+
+1624282071 c:\users\ferna\source\repos\repofer\tp_laboratorio_1\tp3\linkedlist.h
+
+1624295553 c:\users\ferna\source\repos\repofer\tp_laboratorio_1\tp3\controller.h
+	"Employee.h"
+
+1624299859 c:\users\ferna\source\repos\repofer\tp_laboratorio_1\tp3\employee.h
+
+1624285297 c:\users\ferna\source\repos\repofer\tp_laboratorio_1\tp3\ui.h
+
+1624294786 c:\users\ferna\source\repos\repofer\tp_laboratorio_1\tp3\inputs.h
+
+1624282071 c:\users\ferna\source\repos\repofer\tp_laboratorio_1\tp3\parser.h
+
+1624299744 source:c:\users\ferna\source\repos\repofer\tp_laboratorio_1\tp3\employee.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Employee.h"
+
+1624286539 source:c:\users\ferna\source\repos\repofer\tp_laboratorio_1\tp3\inputs.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"inputs.h"
+	"ui.h"
+
+1624300097 source:c:\users\ferna\source\repos\repofer\tp_laboratorio_1\tp3\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ui.h"
+	"LinkedList.h"
+	"Controller.h"
+	"Employee.h"
+	"inputs.h"
+
+1624298983 source:c:\users\ferna\source\repos\repofer\tp_laboratorio_1\tp3\parser.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"Employee.h"
+	"Controller.h"
+
+1624299569 source:c:\users\ferna\source\repos\repofer\tp_laboratorio_1\tp3\ui.c
+	<stdio.h>
+	<stdlib.h>
+	"ui.h"
+	"inputs.h"
+
