@@ -59,7 +59,7 @@ int multiplicar(int numeroA, int numeroB) {
 
 long long int calcularFactorial(int numero) {
 	int respuesta;
-	if (numero == 1) {
+	if (numero == 1 || numero == 0) {
 		respuesta = 1;
 	} else {
 		respuesta = numero * calcularFactorial(numero - 1);
@@ -104,7 +104,7 @@ int calcularTodo(int primerOperando, int segundoOperando, int *resultadoSuma,
 		} else {
 			*flagFactorizoA = 0;
 		}
-		if (segundoOperando < 13 && segundoOperando > 0) { //el factorial mayor a 12 me desborda la variable long long int
+		if (segundoOperando < 13 && segundoOperando >= 0) { //el factorial mayor a 12 me desborda la variable long long int
 			*resultadoFactB = calcularFactorial(segundoOperando);
 			*flagFactorizoB = 1;
 		} else {

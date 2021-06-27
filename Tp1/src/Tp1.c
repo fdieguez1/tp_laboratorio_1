@@ -52,16 +52,12 @@ int main(void) {
 				flagSegundoOp);
 		opcion = tomarRespuesta();
 		if (opcion != -1) {
-			if (retornoEjecucion == 0) {
 				retornoEjecucion = ejecutarOpcion(opcion, &primerOperando,
 						&segundoOperando, &flagPrimerOp, &flagSegundoOp,
 						&flagCalculos, &resultadoSuma, &resultadoResta,
 						&resultadoDivision, &resultadoMultiplicacion,
 						&resultadoFactA, &resultadoFactB, &flagDivido,
 						&flagFactA, &flagFactB);
-			} else {
-				printf("\nNo se pudo procesar la opcion, intente nuevamente\n");
-			}
 			system("pause");
 		} else {
 			printf(
